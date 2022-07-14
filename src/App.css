@@ -1,0 +1,104 @@
+body {
+  background-color: whitesmoke;
+  width: 100%;
+}
+img {
+  width: 100px;
+}
+.shopPage {
+  display: flex;
+  flex-direction: row;
+}
+.shopListDiv {
+  border: solid 2px;
+}
+
+.ButtonShop {
+  width: 500px;
+  height: 50px;
+  margin: 10px;
+  font-size: larger;
+  color: black;
+  background: rgb(250, 250, 250);
+
+  border-radius: 10px;
+}
+
+.buttonMenu {
+  background: palevioletred;
+  border: solid 2px;
+  border-radius: 10px;
+  width: 300px;
+  height: 25px;
+  font-size: larger;
+  color: black;
+  padding-left: 25px;
+  margin: 15px;
+}
+
+.shopPage > * {
+  margin: 10px;
+}
+.shopFood {
+  width: 200px;
+  height: 200px;
+  border: solid 2px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.shopFoodDiv {
+  border: solid 2px;
+  overflow: scroll;
+  height: 550px;
+}
+
+.shoppingCarts {
+  display: flex;
+  flex-direction: row;
+}
+
+.date {
+  /* width: 400px; */
+  height: auto;
+  margin: 10px;
+  border: solid 2px;
+}
+input {
+  background: palevioletred;
+  color: black;
+
+  border-radius: 5px;
+  width: 350px;
+  height: 25px;
+  font-size: larger;
+  padding-left: 15px;
+}
+.date > * {
+  margin: 10px;
+}
+.totalPrice {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+
+  width: 1000px;
+}
+.buttonFood {
+  background: palevioletred;
+  border: solid 2px;
+  border-radius: 10px;
+  width: 110px;
+  height: 20px;
+  font-size: small;
+
+  color: black;
+}
+
+.orders-container {
+  margin-left: 10px;
+}
